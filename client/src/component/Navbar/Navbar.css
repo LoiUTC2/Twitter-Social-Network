@@ -1,0 +1,42 @@
+.container {
+    background-color: black;
+    height: 700px;
+    color: white;
+    font-family: 'Segoe UI';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    overflow-y: auto;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+nav ul li svg {
+    margin-right: 10px;
+}
+
+nav ul li span {
+    margin-left: 5px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
