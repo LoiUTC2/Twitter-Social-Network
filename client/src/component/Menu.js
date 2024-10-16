@@ -9,7 +9,7 @@ const Menu = () => {
     const [userRelateList, setUserRelateList] = useState([]);
     const [userListOnline, setUserListOnline] = useState([]);
     const [searchValue, setSearchValue] = useState("");
-    const [suggestions, setSuggestions] = useState([]);const [suggestions, setSuggestions] = useState([]);
+    const [suggestions, setSuggestions] = useState([]);
     const [debounceTimeout, setDebounceTimeout] = useState(null);
     const navigate = useNavigate();
     const [skip, setSkip] = useState(0);
